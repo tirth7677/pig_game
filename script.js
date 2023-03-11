@@ -47,7 +47,7 @@ btnhold.addEventListener('click', function () {
     // score[1] = score[1] + currentscore;
     document.getElementById(`score--${activeplayer}`).textContent =
       scores[activeplayer];
-    if (scores[activeplayer] >= 100) {
+    if (scores[activeplayer] >= 30) {
       playing = false;
       diceel.classList.add('hidden');
       document
